@@ -4,4 +4,4 @@ Projeto de observabilidade e monitoramento com Prometheus, Grafana e Alert Manag
 
 ## Arquitetura do projeto
 
-![Arquitetura](../devsecops_observabilidade_monitoramento/docs-projeto/arquitetura.png)
+![Arquitetura](./docs-projeto/arquitetura.png)
