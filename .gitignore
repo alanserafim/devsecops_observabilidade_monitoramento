@@ -1,0 +1,96 @@
+# ===================================================================
+# Arquivo .gitignore para Projeto Java com Maven
+# ===================================================================
+
+# Ignora a pasta .git (ATENÇÃO: Isso impede o versionamento do repositório)
+.git/
+
+### Arquivos gerados pelo Maven ###
+# A pasta "target" contém todos os artefatos de build (classes compiladas, JARs, WARs, etc.)
+target/
+
+# Arquivos de log do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Arquivos de Log ###
+*.log
+logs/
+
+### Arquivos gerados por IDEs ###
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+gen/
+shelf/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.DS_Store
+*.pyc
+*.swp
+bin/
+gen/
+local.properties
+.metadata/
+tmp/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+nb-configuration.xml
+
+# VS Code
+.vscode/
+.history/
+
+### Arquivos do Sistema Operacional ###
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Network Trash Folder
+Temporary Items
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+### Outros ###
+
+# Arquivos temporários
+*.tmp
+
+# Arquivos de dependências baixadas localmente (não recomendado versionar)
+lib/
+libs/
