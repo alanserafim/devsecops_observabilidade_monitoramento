@@ -94,3 +94,4 @@ Temporary Items
 # Arquivos de dependências baixadas localmente (não recomendado versionar)
 lib/
 libs/
+prometheus-grafana/app/target/forum.jar
